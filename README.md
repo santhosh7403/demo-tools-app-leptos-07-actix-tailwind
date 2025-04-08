@@ -39,3 +39,7 @@ Here are some screenshots.
 
 # Modal Window example:
 ![Screenshot from 2025-04-07 13-27-22](https://github.com/user-attachments/assets/1a018da0-1e0a-4a6a-b6bb-95390a9d5382)
+
+# Normal edit form :
+
+![Screenshot from 2025-04-08 14-24-09](https://github.com/user-attachments/assets/4a95fabe-a9f2-4e72-9e4c-f94d2fd799b1)
