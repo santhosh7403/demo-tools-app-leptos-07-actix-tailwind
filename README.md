@@ -5,12 +5,13 @@
 
 
 This is a leptos demo application that will help anyone who wants a hands-on and learn by experimenting in a working example.
-  It includes:
-  Leptos
-  actix-web
-  SSR
-  DB integration (sqlite)
-  Modal Window
+  
+It includes:<br/>        
+          Leptos<br/>
+          actix-web<br/>
+          SSR<br/>
+          DB integration (sqlite)<br/>
+          Modal Window<br/>
 
 
 To test it out, clone the repo and run.
