@@ -3,12 +3,12 @@
 async fn main() -> std::io::Result<()> {
     use actix_files::Files;
     use actix_web::*;
+    use demo_tools_app_leptos_07_actix_tailwind::app::*;
     use leptos::config::get_configuration;
     use leptos::prelude::*;
     use leptos_actix::{generate_route_list, LeptosRoutes};
     use leptos_meta::MetaTags;
     use sqlx::{migrate, sqlite::SqlitePoolOptions};
-    use tools_app_v7_tailwind::app::*;
 
     // Enable debug logs if any issues
     //
