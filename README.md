@@ -4,7 +4,14 @@
 </picture>
 
 
-This is a leptos demo application that will help you to experience and learn those who are interested.
+This is a leptos demo application that will help anyone who wants a hands-on and learn by experimenting in a working example.
+  It includes:
+  Leptos
+  actix-web
+  SSR
+  DB integration (sqlite)
+  Modal Window
+
 
 To test it out, clone the repo and run.
 
@@ -43,3 +50,15 @@ Here are some screenshots.
 # Normal edit form :
 
 ![Screenshot from 2025-04-08 14-24-09](https://github.com/user-attachments/assets/4a95fabe-a9f2-4e72-9e4c-f94d2fd799b1)
+
+
+References and thanks:
+
+1. [https://github.com/t4p-community/20240703_build-web-apps-with-rust-and-leptos] (https://github.com/t4p-community/20240703_build-web-apps-with-rust-and-leptos)
+
+2. [https://github.com/oxide-byte/todo-leptos] (https://github.com/oxide-byte/todo-leptos)
+
+This project is fork of the above (from 1) and in top of it following updates:
+    leptos version 0.6 to 0.7 upgrade (breaking changes)
+    tailwindcss applied.
+    Modal window integrated (from 2).
