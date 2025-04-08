@@ -59,7 +59,7 @@ References and thanks:
 
 2. [https://github.com/oxide-byte/todo-leptos] (https://github.com/oxide-byte/todo-leptos)
 
-This project is fork of the above (from 1) and in top of it following updates:
-    leptos version 0.6 to 0.7 upgrade (breaking changes)
-    tailwindcss applied.
-    Modal window integrated (from 2).
+This project is fork of the above (from 1) and in top of it following updates:<br/>
+    leptos version 0.6 to 0.7 upgrade (breaking changes).<br/>
+    tailwindcss applied.<br/>
+    Modal window integrated (from 2).<br/>
