@@ -30,12 +30,12 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate` etc. If you run
 
 Once application started, access application from you web browser [ localhost:3000 ](http://localhost:3000/)
 
-Here are some screenshots. 
+Here are some screenshots.
 ![Screenshot from 2025-04-08 13-43-59](https://github.com/user-attachments/assets/8f50dc0d-694e-4e38-905e-196872baa6ef)
 ![Screenshot from 2025-04-07 13-29-26](https://github.com/user-attachments/assets/df187002-f0b5-44ed-8783-92fd5e122b5a)
 ![Screenshot from 2025-04-07 13-29-54](https://github.com/user-attachments/assets/38a5de8d-e3c7-4a6b-84c2-31d8f28617f5)
 ![Screenshot from 2025-04-07 13-28-38](https://github.com/user-attachments/assets/c3d5c0a3-fb14-4dcd-a08d-090e98840a2f)
 ![Screenshot from 2025-04-07 13-26-33](https://github.com/user-attachments/assets/4fafa405-d517-484c-b922-883c1f058cc5)
+
+# Modal Window example:
 ![Screenshot from 2025-04-07 13-27-22](https://github.com/user-attachments/assets/1a018da0-1e0a-4a6a-b6bb-95390a9d5382)
-
-
