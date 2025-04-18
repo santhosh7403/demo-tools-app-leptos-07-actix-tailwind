@@ -35,7 +35,7 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate` etc. If you run
 2. `rustup target add wasm32-unknown-unknown` - add the ability to compile Rust to WebAssembly
 3. `cargo install cargo-generate` - install `cargo-generate` binary (should be installed automatically in future)
 
-   # update(2025-04-18)
+# Update(2025-04-18)
 
    This app build seems breaking with 1.88.0.nightly release, with below error:
 
@@ -52,13 +52,18 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate` etc. If you run
 
 As a work around for now, adding a rust-toolchain.toml config file to force it to use 1.87.0 , at the project root folder.
 
-You may need install it with rustup as below
+You may need install it with rustup as below.
+
 `rustup toolchain install nightly-2005-03-05-x86_64-unknown-linux-gnu`  - add this channel
 
 `rustup target add wasm32-unknown-unknown`  - adding wasm target to the newly added channel
 
-   
+Now you may run the build.
 
+`cargo leptos watch`  or `cargo leptos serve`
+
+
+# Application access
 
 Once application started, access application from you web browser [ localhost:3000 ](http://localhost:3000/)
 
