@@ -35,32 +35,36 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate` etc. If you run
 2. `rustup target add wasm32-unknown-unknown` - add the ability to compile Rust to WebAssembly
 3. `cargo install cargo-generate` - install `cargo-generate` binary (should be installed automatically in future)
 
-# Update(2025-04-18)
 
-   This app build seems breaking with 1.88.0.nightly release, with below error:
+<h3>Update (2025-05-02):  </h3> 
+Below issue appears resolved, hence switching back to nightly channel of rust (change in rust-toolchain.toml). A fresh clone of repo will not have any issue, above steps should work. Any test with old clone might need a `cargo update` and channel switch to nightly.
 
-                   error[E0599]: no method named `source_file` found for struct `memo::proc_macro::Span` in the current scope
-                   --> /home/santhosh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/leptos_macro-0.7.8/src/lib.rs:360:22
-                    |
-                360 |                 site.source_file().path(),
-                    |                      ^^^^^^^^^^^
-                    |
-                help: there is a method `source` with a similar name
-                    |
-                360 -                 site.source_file().path(),
-                360 +                 site.source().path(),
-
-As a work around for now, adding a rust-toolchain.toml config file to force it to use 1.87.0 , at the project root folder.
-
-You may need install it with rustup as below.
-
-`rustup toolchain install nightly-2005-03-05-x86_64-unknown-linux-gnu`  - add this channel
-
-`rustup target add wasm32-unknown-unknown`  - adding wasm target to the newly added channel
-
-Now you may run the build.
-
-`cargo leptos watch`  or `cargo leptos serve`
+          # Update(2025-04-18)
+        
+           This app build seems breaking with 1.88.0.nightly release, with below error:
+        
+                           error[E0599]: no method named `source_file` found for struct `memo::proc_macro::Span` in the current scope
+                           --> /home/santhosh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/leptos_macro-0.7.8/src/lib.rs:360:22
+                            |
+                        360 |                 site.source_file().path(),
+                            |                      ^^^^^^^^^^^
+                            |
+                        help: there is a method `source` with a similar name
+                            |
+                        360 -                 site.source_file().path(),
+                        360 +                 site.source().path(),
+        
+        As a work around for now, adding a rust-toolchain.toml config file to force it to use 1.87.0 , at the project root folder.
+        
+        You may need install it with rustup as below.
+        
+        `rustup toolchain install nightly-2005-03-05-x86_64-unknown-linux-gnu`  - add this channel
+        
+        `rustup target add wasm32-unknown-unknown`  - adding wasm target to the newly added channel
+        
+        Now you may run the build.
+        
+        `cargo leptos watch`  or `cargo leptos serve` 
 
 
 # Application access
