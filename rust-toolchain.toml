@@ -1,3 +1,3 @@
 [toolchain]
-channel = "nightly-2025-03-05-x86_64-unknown-linux-gnu" # Just to force the build channel to 1.87.0 for now
-# channel = "nightly"
+# channel = "nightly-2025-03-05-x86_64-unknown-linux-gnu" # Just to force the build channel to 1.87.0 for now
+channel = "nightly"
