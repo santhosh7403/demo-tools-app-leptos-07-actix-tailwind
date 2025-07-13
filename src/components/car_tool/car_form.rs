@@ -39,7 +39,6 @@ pub fn CarForm(append_car: ServerAction<AppendCar>) -> impl IntoView {
                                     class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md capitalize"
                                 />
                             </div>
-
                             // Year
                             <div class="col-span-1">
                                 <label for="year" class="block text-sm font-medium text-gray-700">
@@ -52,7 +51,6 @@ pub fn CarForm(append_car: ServerAction<AppendCar>) -> impl IntoView {
                                     class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                                 />
                             </div>
-
                             // Color
                             <div class="col-span-1">
                                 <label for="color" class="block text-sm font-medium text-gray-700">
@@ -65,7 +63,6 @@ pub fn CarForm(append_car: ServerAction<AppendCar>) -> impl IntoView {
                                     class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md capitalize"
                                 />
                             </div>
-
                             // Price
                             <div class="col-span-1">
                                 <label for="price" class="block text-sm font-medium text-gray-700">
