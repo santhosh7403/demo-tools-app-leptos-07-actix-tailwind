@@ -4,9 +4,11 @@
 </picture>
 
 
-This is a leptos demo application that will help anyone who wants a hands-on and learn by experimenting in a working example.
+This is a comparitively simple leptos demo application that will help anyone who wants a hands-on and learn by experimenting in a working example.
+
+I have added another repo that is more realworld kind of application [ here ](https://github.com/santhosh7403/realword-app-leptos-07-axum-sqlite) if you are interested.
   
-It includes:<br/>        
+This app includes:<br/>        
           Leptos<br/>
           actix-web<br/>
           SSR<br/>
