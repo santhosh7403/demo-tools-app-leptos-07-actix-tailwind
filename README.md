@@ -63,10 +63,12 @@ Below issue appears resolved, hence switching back to nightly channel of rust (c
         `rustup toolchain install nightly-2005-03-05-x86_64-unknown-linux-gnu`  - add this channel
         
         `rustup target add wasm32-unknown-unknown`  - adding wasm target to the newly added channel
+
         
-        Now you may run the build.
         
-        `cargo leptos watch`  or `cargo leptos serve` 
+Now you may run the build.
+        
+`cargo leptos watch`  or `cargo leptos serve` 
 
 
 # Application access
