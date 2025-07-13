@@ -2,6 +2,7 @@ use leptos::prelude::*;
 
 use crate::repositories::car_repository::AppendCar;
 
+#[allow(dead_code)]
 #[component]
 pub fn CarForm(append_car: ServerAction<AppendCar>) -> impl IntoView {
     view! {
